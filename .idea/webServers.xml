@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3d9c2e50-10d9-4c6c-bcb2-dcfd9b6545aa" name="GraLabNoise">
+        <fileTransfer accessType="SFTP" host="130.216.4.220" port="22" sshConfigId="58e25390-da01-4a7e-93c1-4e3c6845b9ad" sshConfig="yzhu970@130.216.4.220:22 password" />
+      </webServer>
+    </option>
+  </component>
+</project>
