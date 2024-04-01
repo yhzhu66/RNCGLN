@@ -1,57 +1,22 @@
-# Graph Playground (_v-0.1_)
+# About this paper:
+The Robust Node Classification under Graph and Label Noise (RNCGLN) method is proposed to improve the robustness of node classification when both graph and label noise are present. In considering self-attention as a fully connected graph, the self-attention layers are used as the backbone network to resist noise impact from a global perspective. We further design the graph and label self-improvement modules to enhance the quality of supervision information and supplement supervision information for each other. As a result, RNCGLN leverages self-training and pseudo labels to facilitate the self-improvement process within an end-to-end learning framework.
 
-![image](utils/data/github.png)
 
-Graph Playground is a highy emsamble project for Graph Neural Network (_GNN_), using pytorch framwork and other supporting packages (DGL, Torch Geometric, Ray, etc).
-The goal of this project is to build a framework that is easy to get started with, highly integrated, and unified.
+The paper can be viewed via file:///C:/Users/Administrator/Downloads/29668-Article%20Text-33722-1-2-20240324%20(1).pdf, and the framework of our CPP is listed in the following.
+![image](https://github.com/yhzhu66/RNCGLN/assets/52006047/c7cac03b-7de8-4976-83b2-2fd75133c9cd)
 
-**Currently in the process of updating...Not enough tasks, datasets and methods are supported, pls be patient.**
-# Main Install:
-- python 3.9  
-- pytorch 1.10.0_cuda11.3
-- torch_geometric
-- dgl
-- ray
 
-Full installed packages, pls see requirements (not all of them are needed)
+# Runing code
+The main_RNCGLN are two main functions, including configs for two different datasets. Different datasets need different hyperparameters to result their optimum performance.
 
-# Quickly Use:
-Set your choose in main.py Line. 148:
-
-Task (e.g.,  `task = 'Semi'    # choice: Semi Unsup Sup Rein Noise Fed`)
-
-Method (e.g., `method = 'Gcn'  # choice: Gcn Gat Sage DGI...`)
-
-Dataset (e.g., `dataset = 'Cora' # choice: Cora CiteSeer PubMed freebase Photo Computers...`)
-
-And Run:
-
-`python main.py`
-
-# Task:
-updating
-
-# Method:
-updating
-
-# Dataset:
-updating
-
-# Params and Auto-turning:
-updating
-
-# Log your results to Database:
-updating
-
-# Project structure:
-updating
-
-# Todo List:
-
-- [ ] 添加supervised learning
-- [x] 添加图像数据集
-- [x] 支持torch_geometric
-- [ ] models文件的结构还需要后续的调整
-- [ ] Net.py 后续会分成2个文件 Layer.py and Basic_model.py
-- [x] 添加E2CGRL, SUGRL, DGI
-
+# Other:
+If you are interested in our work, please also cite our paper:
+@inproceedings{zhu2024robust,
+  title={Robust Node Classification on Graph Data with Graph and Label Noise},
+  author={Zhu, Yonghua and Feng, Lei and Deng, Zhenyun and Chen, Yang and Amor, Robert and Witbrock, Michael},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={15},
+  pages={17220--17227},
+  year={2024}
+}
