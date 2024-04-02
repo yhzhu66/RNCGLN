@@ -2,7 +2,8 @@
 The Robust Node Classification under Graph and Label Noise (RNCGLN) method is proposed to improve the robustness of node classification when both graph and label noise are present. In considering self-attention as a fully connected graph, the self-attention layers are used as the backbone network to resist noise impact from a global perspective. We further design the graph and label self-improvement modules to enhance the quality of supervision information and supplement supervision information for each other. As a result, RNCGLN leverages self-training and pseudo labels to facilitate the self-improvement process within an end-to-end learning framework.
 
 
-The paper can be viewed via file:///C:/Users/Administrator/Downloads/29668-Article%20Text-33722-1-2-20240324%20(1).pdf, and the framework of our CPP is listed in the following.
+The paper can be viewed via file: https://ojs.aaai.org/index.php/AAAI/article/view/29668 
+The framework of our RNCGLN is listed below.
 ![image](https://github.com/yhzhu66/RNCGLN/assets/52006047/c7cac03b-7de8-4976-83b2-2fd75133c9cd)
 
 
